@@ -15,7 +15,7 @@ I'm looking for a dedicated security engineering role where I can keep building 
 
 I built this pipeline to check what security scanners actually examined before trusting their results. It blocks runs when scan coverage can't be established. In my AWS lab, I also applied a Terraform plan after it passed OPA checks, inspected the deployed IAM permissions, and tested GitHub Actions access through OIDC.
 
-[Code and setup](https://github.com/rdx0120/secure-pipeline#readme) · [Design and debugging lessons](https://github.com/rdx0120/secure-pipeline/blob/main/LESSONS.md) · [AI-use disclosure](https://github.com/rdx0120/secure-pipeline/blob/main/AI-USE.md)
+[Code and setup](https://github.com/rdx0120/secure-pipeline#readme) · [Design and debugging lessons](https://github.com/rdx0120/secure-pipeline/blob/main/LESSONS.md)
 
 ### [Sigma Detection Pack](https://github.com/rdx0120/sigma-detection-pack)
 **Sigma · Wazuh · Sysmon · MITRE ATT&CK**
@@ -44,8 +44,6 @@ I used an isolated AWS account to fix configuration findings and test detections
 - **[Threat Model Casebook](https://github.com/rdx0120/threat-model-casebook):** Practice threat models for payment systems and a multi-tenant API, covering what could go wrong, which mitigations matter most, and what risks remain.
 - **[Security Program Blueprint](https://github.com/rdx0120/one-person-security-program):** A plan for running a small security program, informed by my healthcare work. It distinguishes controls I've operated from improvements I've proposed.
 
-## A note on the write-ups
-
-I use AI tools during development and document that assistance alongside my own decisions, testing, and changes. The repositories also credit upstream projects and explain the limits of the results.
+## Currently learning
 
 Outside these projects, I'm continuing to practice web application testing and secure code review.
